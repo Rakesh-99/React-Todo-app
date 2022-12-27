@@ -1,0 +1,75 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+   
+
+}
+.innerContainer{
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    background-image: linear-gradient(rgba(85, 15, 236, 0.389), rgba(129, 93, 238, 0.493));
+    box-shadow: 5px 5px 10px grey;
+    position: sticky;
+    top: 3rem;
+    left: 0;
+
+}
+.titleBox{
+    border: 1px solid rgb(41, 41, 32);
+    margin: 10px 0;
+    /* width: 100%; */
+    /* display: flex;
+    justify-content: center; */
+    padding: 0 15.5rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+    position: sticky;
+    top: 0;
+    left: 0;
+    
+    
+}
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+
+}
+.buttonContainer button{
+    padding: 10px 30px;
+    background-color: rgb(212, 255, 0);
+    color: rgb(0, 0, 0);
+    font-family: fira code;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+
+}
+.inputField{
+    margin: 10px 0;
+}
+.inputField input{
+    width: 300px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(60, 60, 61);
+
+}
+.inputField input:focus{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+::placeholder{
+    color: rgb(94, 255, 0);
+}
